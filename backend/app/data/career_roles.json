@@ -1,0 +1,474 @@
+[
+  {
+    "id": 1,
+    "slug": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Transforms raw business and technical data into actionable insights, dashboards, and reports using SQL, Python, and BI tools.",
+    "industry": "Business Intelligence & Analytics",
+    "average_salary_range": "$65,000 - $95,000 / year",
+    "job_outlook": "High Demand (15% 10-year projected growth)",
+    "skills": [
+      {
+        "skill_name": "SQL",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Write complex JOINs, CTEs, and Window Functions", "Query aggregation and database optimization"],
+        "suggested_projects": ["E-Commerce Customer Retention & Cohort Analysis SQL Pipeline"]
+      },
+      {
+        "skill_name": "Python",
+        "target_proficiency": 3,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Use Pandas and NumPy for tabular data manipulation", "Automate CSV and JSON cleaning scripts"],
+        "suggested_projects": ["Automated Sales Report Generator using Pandas and Matplotlib"]
+      },
+      {
+        "skill_name": "Data Visualization & BI",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["SQL"],
+        "example_activities": ["Build interactive dashboards in Power BI or Tableau", "Design executive metric scorecards"],
+        "suggested_projects": ["Interactive HR Analytics and Attrition Dashboard"]
+      },
+      {
+        "skill_name": "Exploratory Data Analysis (EDA)",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Python"],
+        "example_activities": ["Perform univariate and bivariate statistical analysis", "Identify trends, outliers, and data distributions"],
+        "suggested_projects": ["Housing Price Factor Exploration & Correlation Study"]
+      },
+      {
+        "skill_name": "Statistics & Probability",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Hypothesis testing and A/B test analysis", "Confidence intervals and standard error computation"],
+        "suggested_projects": ["E-Commerce Website Redesign A/B Test Statistical Evaluation"]
+      },
+      {
+        "skill_name": "Spreadsheets (Excel/Sheets)",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": [],
+        "example_activities": ["VLOOKUP, INDEX/MATCH, Pivot Tables, and scenario modeling"],
+        "suggested_projects": ["Financial Budgeting & Revenue Forecast Spreadsheet Model"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "data-scientist",
+    "title": "Data Scientist",
+    "description": "Applies statistical modeling, machine learning algorithms, and predictive analytics to solve complex business and scientific problems.",
+    "industry": "Data Science & Machine Learning",
+    "average_salary_range": "$95,000 - $140,000 / year",
+    "job_outlook": "Very High Demand (35% 10-year projected growth)",
+    "skills": [
+      {
+        "skill_name": "Python",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Object-oriented data science scripting", "Vectorized numerical computing with NumPy and SciPy"],
+        "suggested_projects": ["Custom Machine Learning Feature Engineering Pipeline"]
+      },
+      {
+        "skill_name": "SQL",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Analytical feature extraction queries", "Handling millions of rows with indexing and partitioning"],
+        "suggested_projects": ["Feature Store Database for Customer Churn Prediction"]
+      },
+      {
+        "skill_name": "Machine Learning",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["Python", "Statistics & Probability"],
+        "example_activities": ["Train regression, classification, and clustering models with Scikit-Learn", "Model evaluation with ROC-AUC, F1-score, Cross-Validation"],
+        "suggested_projects": ["Credit Risk Default Classification with XGBoost & SHAP Explainability"]
+      },
+      {
+        "skill_name": "Statistics & Probability",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Bayesian inference, regression diagnostics, ANOVA, probability distributions"],
+        "suggested_projects": ["Clinical Trial Experimentation Analysis & Power Calculation"]
+      },
+      {
+        "skill_name": "Data Visualization & BI",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": ["Python"],
+        "example_activities": ["Plot complex multidimensional distributions with Seaborn/Plotly"],
+        "suggested_projects": ["Interactive Model Performance and Drift Monitoring Dashboard"]
+      },
+      {
+        "skill_name": "Deep Learning Fundamentals",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Machine Learning"],
+        "example_activities": ["Build neural networks using PyTorch or TensorFlow", "Implement basic computer vision or NLP classifiers"],
+        "suggested_projects": ["Medical Image X-Ray Pneumonia Classifier with PyTorch"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "ai-ml-engineer",
+    "title": "AI/ML Engineer",
+    "description": "Designs, builds, and deploys scalable production machine learning systems, deep learning models, and LLM applications.",
+    "industry": "Artificial Intelligence",
+    "average_salary_range": "$110,000 - $165,000 / year",
+    "job_outlook": "Exponential Growth (40% 10-year projected growth)",
+    "skills": [
+      {
+        "skill_name": "Python",
+        "target_proficiency": 5,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Asynchronous programming, packaging, profiling, and memory optimization"],
+        "suggested_projects": ["High-throughput Batched Inference Microservice"]
+      },
+      {
+        "skill_name": "Deep Learning & Neural Networks",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["Python", "Machine Learning"],
+        "example_activities": ["Transformers, CNNs, RNNs, and custom loss functions in PyTorch"],
+        "suggested_projects": ["Domain-Specific Fine-Tuned Transformer for Document QA"]
+      },
+      {
+        "skill_name": "MLOps & Model Deployment",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["Python"],
+        "example_activities": ["Deploy models via Docker & FastAPI, track experiments with MLflow, set up CI/CD"],
+        "suggested_projects": ["Production Model Serving with ONNX Runtime, FastAPI & Docker"]
+      },
+      {
+        "skill_name": "LLMs & Agent Architectures",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["Python"],
+        "example_activities": ["Prompt engineering, RAG pipelines, vector databases (Chroma/FAISS), function calling agents"],
+        "suggested_projects": ["Retrieval-Augmented Generation (RAG) System over Academic Papers"]
+      },
+      {
+        "skill_name": "Data Engineering & Pipelines",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Python"],
+        "example_activities": ["Process streaming and batch datasets, dataset versioning with DVC"],
+        "suggested_projects": ["Real-time Feature Transformation Pipeline"]
+      },
+      {
+        "skill_name": "Git & Software Engineering Best Practices",
+        "target_proficiency": 4,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Unit testing with pytest, type hinting, modular design patterns"],
+        "suggested_projects": ["Open-source Python Machine Learning Utility Package"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "software-developer",
+    "title": "Software Developer",
+    "description": "Engineers reliable, maintainable software applications, microservices, and system tools with strong algorithmic foundations.",
+    "industry": "Software Engineering",
+    "average_salary_range": "$75,000 - $115,000 / year",
+    "job_outlook": "Strong Demand (22% projected growth)",
+    "skills": [
+      {
+        "skill_name": "Data Structures & Algorithms",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Solve tree, graph, dynamic programming, and hash map problems with optimal time/space complexity"],
+        "suggested_projects": ["High-Performance In-Memory Cache with LRU Eviction Policy"]
+      },
+      {
+        "skill_name": "Core Programming (Python/Java/C++)",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Object-oriented architecture, concurrency, multithreading, and design patterns"],
+        "suggested_projects": ["Multi-Threaded Web Crawler and Text Indexer"]
+      },
+      {
+        "skill_name": "Database Management (SQL & NoSQL)",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Schema design, ACID transactions, normalization, and indexing"],
+        "suggested_projects": ["Inventory and Order Processing Relational Database"]
+      },
+      {
+        "skill_name": "System Design & Architecture",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Data Structures & Algorithms"],
+        "example_activities": ["Architect scalable client-server systems, rate limiters, and message queues"],
+        "suggested_projects": ["Distributed URL Shortener System Architecture"]
+      },
+      {
+        "skill_name": "Git & Version Control",
+        "target_proficiency": 4,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Branching strategies, pull requests, merge conflict resolution, rebase"],
+        "suggested_projects": ["Collaborative Team Repository with Automated CI Actions"]
+      },
+      {
+        "skill_name": "Testing & Debugging",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": ["Core Programming (Python/Java/C++)"],
+        "example_activities": ["Unit tests, integration tests, mock objects, profiling bottlenecks"],
+        "suggested_projects": ["Comprehensive Test Suite with 90%+ Code Coverage for a Banking API"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "full-stack-developer",
+    "title": "Full-Stack Developer",
+    "description": "Builds end-to-end web applications encompassing interactive frontend interfaces, robust backend APIs, and database persistence.",
+    "industry": "Web Development",
+    "average_salary_range": "$80,000 - $125,000 / year",
+    "job_outlook": "High Demand (25% projected growth)",
+    "skills": [
+      {
+        "skill_name": "JavaScript / TypeScript",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["ES6+ syntax, asynchronous programming (promises, async/await), static typing"],
+        "suggested_projects": ["Interactive Task Board with Drag-and-Drop in TypeScript"]
+      },
+      {
+        "skill_name": "Frontend Frameworks (React/Vue)",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["JavaScript / TypeScript"],
+        "example_activities": ["Component lifecycle, hooks, state management, and responsive CSS/Tailwind"],
+        "suggested_projects": ["Modern E-Commerce Storefront with Cart and Checkout"]
+      },
+      {
+        "skill_name": "Backend Development (Node/FastAPI/Express)",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["RESTful API design, authentication (JWT/OAuth), middleware, and request validation"],
+        "suggested_projects": ["Secure User Authentication and Resource Management Microservice"]
+      },
+      {
+        "skill_name": "Database & ORM (PostgreSQL/SQLite/Prisma)",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Relational modeling, migrations, ORM queries, foreign key relations"],
+        "suggested_projects": ["Content Management Database with Full Audit Logs"]
+      },
+      {
+        "skill_name": "API Integration & Web Security",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Backend Development (Node/FastAPI/Express)"],
+        "example_activities": ["CORS, CSRF protection, input sanitization, rate limiting, and 3rd party APIs"],
+        "suggested_projects": ["Weather & Travel Planner Integrating External Open APIs"]
+      },
+      {
+        "skill_name": "Deployment & DevOps Basics",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": [],
+        "example_activities": ["Docker containerization, cloud hosting (Render/Vercel/AWS), CI/CD pipelines"],
+        "suggested_projects": ["Full-Stack App Deployed with Automated GitHub Actions Pipeline"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "description": "Constructs robust data architectures, distributed ETL pipelines, data warehouses, and streaming infrastructure.",
+    "industry": "Data Infrastructure",
+    "average_salary_range": "$95,000 - $145,000 / year",
+    "job_outlook": "Extremely High Demand (28% projected growth)",
+    "skills": [
+      {
+        "skill_name": "SQL & Data Warehousing",
+        "target_proficiency": 5,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Star schema, snowflake schema, columnar storage, analytical window queries"],
+        "suggested_projects": ["Enterprise Data Warehouse Design for Retail Transactions"]
+      },
+      {
+        "skill_name": "Python for Data Engineering",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Automated data extraction, transformation scripts, API pagination handling"],
+        "suggested_projects": ["Automated Batch Ingestion Pipeline for REST APIs"]
+      },
+      {
+        "skill_name": "Distributed Computing (Spark/PySpark)",
+        "target_proficiency": 3,
+        "importance": "critical",
+        "prerequisites": ["Python for Data Engineering", "SQL & Data Warehousing"],
+        "example_activities": ["RDDs, DataFrames, distributed joins, handling data skew"],
+        "suggested_projects": ["Large-Scale Log Analysis Pipeline Processing 10GB+ Web Server Logs"]
+      },
+      {
+        "skill_name": "Workflow Orchestration (Airflow/Prefect)",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Python for Data Engineering"],
+        "example_activities": ["DAG design, task dependencies, retries, alerting, and schedule backfilling"],
+        "suggested_projects": ["Daily Automated Airflow ETL Pipeline with Email Alerts"]
+      },
+      {
+        "skill_name": "Data Streaming (Kafka/Pulsar)",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": [],
+        "example_activities": ["Producer/Consumer architecture, partition keys, event-driven streaming"],
+        "suggested_projects": ["Real-Time Clickstream Ingestion with Kafka and SQLite/DuckDB"]
+      },
+      {
+        "skill_name": "Docker & Cloud Data Storage",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Containerizing data jobs, S3/GCS object storage integration, Parquet format"],
+        "suggested_projects": ["Containerized ETL Job Writing Partitioned Parquet to Object Storage"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "description": "Protects organizational infrastructure, analyzes threat landscapes, monitors security events, and responds to incidents.",
+    "industry": "Information Security",
+    "average_salary_range": "$75,000 - $115,000 / year",
+    "job_outlook": "Critical Demand (32% projected growth)",
+    "skills": [
+      {
+        "skill_name": "Network Fundamentals & Protocols",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["TCP/IP stack, DNS, subnets, packet analysis using Wireshark"],
+        "suggested_projects": ["Network Traffic Packet Inspection and Anomaly Detection Tool"]
+      },
+      {
+        "skill_name": "Security Information & Event Management (SIEM)",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["Network Fundamentals & Protocols"],
+        "example_activities": ["Splunk/ELK query language, alert correlation, log aggregation"],
+        "suggested_projects": ["Home SOC Lab Setup with Wazuh or Splunk Monitoring Live Logs"]
+      },
+      {
+        "skill_name": "Vulnerability Assessment & Penetration Testing",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Network Fundamentals & Protocols"],
+        "example_activities": ["Nmap port scanning, vulnerability scanners, OWASP Top 10 web vulnerabilities"],
+        "suggested_projects": ["OWASP Top 10 Vulnerability Audit of a Sample Web Application"]
+      },
+      {
+        "skill_name": "Security Scripting (Python/Bash)",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Automate port sweeps, log parsing, hash verification"],
+        "suggested_projects": ["Automated Incident Triage Script for Malicious IP Lookup"]
+      },
+      {
+        "skill_name": "Cryptography Basics",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": [],
+        "example_activities": ["Symmetric vs asymmetric encryption, TLS certificates, hashing (SHA-256)"],
+        "suggested_projects": ["Secure File Encryption & Digital Signature Verification Tool"]
+      },
+      {
+        "skill_name": "Incident Response & Compliance",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": [],
+        "example_activities": ["NIST Incident Handling lifecycle, playbook execution, compliance standards"],
+        "suggested_projects": ["Incident Response Playbook for Ransomware Mitigation"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "cloud-engineer",
+    "title": "Cloud Engineer",
+    "description": "Architects, deploys, and manages scalable cloud services, infrastructure as code (IaC), and resilient network topologies.",
+    "industry": "Cloud & DevOps",
+    "average_salary_range": "$90,000 - $135,000 / year",
+    "job_outlook": "High Demand (27% projected growth)",
+    "skills": [
+      {
+        "skill_name": "Cloud Platforms (AWS / Azure / GCP)",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Compute (EC2/VM), Storage (S3/Blob), Identity & Access Management (IAM), VPC networking"],
+        "suggested_projects": ["Multi-Tier Highly Available Cloud Web Architecture on AWS/Azure"]
+      },
+      {
+        "skill_name": "Infrastructure as Code (Terraform)",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": ["Cloud Platforms (AWS / Azure / GCP)"],
+        "example_activities": ["HCL syntax, state management, modular infrastructure provisioning"],
+        "suggested_projects": ["Automated Multi-Environment VPC and EC2 Provisioning with Terraform"]
+      },
+      {
+        "skill_name": "Containerization & Kubernetes (Docker / K8s)",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": [],
+        "example_activities": ["Multi-stage Docker builds, Kubernetes Pods, Deployments, Services, and Ingress"],
+        "suggested_projects": ["Microservice Cluster Deployment on Local Minikube / K3s"]
+      },
+      {
+        "skill_name": "Linux System Administration",
+        "target_proficiency": 4,
+        "importance": "critical",
+        "prerequisites": [],
+        "example_activities": ["Bash scripting, systemd services, permission management, network configuration"],
+        "suggested_projects": ["Automated Server Hardening and Log Rotation Bash Script"]
+      },
+      {
+        "skill_name": "CI/CD Automation",
+        "target_proficiency": 3,
+        "importance": "high",
+        "prerequisites": ["Containerization & Kubernetes (Docker / K8s)"],
+        "example_activities": ["GitHub Actions workflows, automated testing, image push, and cloud deployment"],
+        "suggested_projects": ["Zero-Downtime CI/CD Pipeline Deploying Docker Containers"]
+      },
+      {
+        "skill_name": "Cloud Security & Monitoring",
+        "target_proficiency": 3,
+        "importance": "medium",
+        "prerequisites": ["Cloud Platforms (AWS / Azure / GCP)"],
+        "example_activities": ["CloudWatch / Prometheus alerts, IAM least privilege, security groups"],
+        "suggested_projects": ["Cloud Infrastructure Health & Cost Monitoring Alert System"]
+      }
+    ]
+  }
+]

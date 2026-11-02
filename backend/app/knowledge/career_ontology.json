@@ -1,0 +1,60 @@
+{
+  "ontology_version": "2.4.0",
+  "domain": "Computer Science & Software Engineering Career Guidance",
+  "last_updated": "2026-10-27T00:00:00Z",
+  "skill_taxonomies": {
+    "LANGUAGES": ["Python", "JavaScript", "TypeScript", "SQL", "Go", "Java", "C++"],
+    "BACKEND_FRAMEWORKS": ["FastAPI", "Django", "Node.js", "Express", "Spring Boot"],
+    "FRONTEND_FRAMEWORKS": ["React", "Next.js", "Vue", "Tailwind CSS"],
+    "DATA_AND_AI": ["PyTorch", "TensorFlow", "Pandas", "Scikit-Learn", "LangChain", "Vector Databases"],
+    "DEVOPS_AND_CLOUD": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Terraform"],
+    "SYSTEM_DESIGN": ["Microservices", "REST APIs", "Message Queues", "Caching Redis", "Database Indexing"]
+  },
+  "prerequisite_graph": {
+    "FastAPI": ["Python", "REST APIs"],
+    "Django": ["Python", "SQL"],
+    "React": ["JavaScript", "HTML/CSS"],
+    "Next.js": ["React", "TypeScript"],
+    "PyTorch": ["Python", "Linear Algebra", "Calculus"],
+    "Kubernetes": ["Docker", "Linux"],
+    "Microservices": ["FastAPI", "Docker", "REST APIs"],
+    "Vector Databases": ["Python", "Embedding Concepts"]
+  },
+  "roles": {
+    "Full Stack Engineer": {
+      "tier": "Tier-1 Software Engineering",
+      "required_core_skills": ["Python", "FastAPI", "JavaScript", "React", "SQL", "Docker"],
+      "recommended_certifications": ["AWS Certified Cloud Practitioner", "GitHub Foundations"],
+      "minimum_gpa": 3.0,
+      "capstone_archetype": "End-to-End Microservices Web Application with CI/CD"
+    },
+    "Machine Learning Engineer": {
+      "tier": "Tier-1 Applied Intelligence",
+      "required_core_skills": ["Python", "PyTorch", "Scikit-Learn", "FastAPI", "Docker", "SQL"],
+      "recommended_certifications": ["AWS Machine Learning Specialty", "DeepLearning.AI Specialization"],
+      "minimum_gpa": 3.4,
+      "capstone_archetype": "Autonomous Agent Inference Pipeline with Vector Search & Model Serving"
+    },
+    "Cloud & DevOps Engineer": {
+      "tier": "Tier-1 Infrastructure Engineering",
+      "required_core_skills": ["Linux", "Docker", "Kubernetes", "AWS", "Python", "CI/CD"],
+      "recommended_certifications": ["AWS Certified Solutions Architect", "CKA (Certified Kubernetes Admin)"],
+      "minimum_gpa": 3.0,
+      "capstone_archetype": "Automated Multi-Tier Cloud Deployment with Infrastructure as Code"
+    },
+    "Data Analyst / BI Specialist": {
+      "tier": "Tier-2 Analytics & Intelligence",
+      "required_core_skills": ["SQL", "Python", "Pandas", "Power BI", "Data Cleaning"],
+      "recommended_certifications": ["Google Data Analytics Professional", "Microsoft Power BI Associate"],
+      "minimum_gpa": 3.0,
+      "capstone_archetype": "Interactive Corporate Telemetry & Business Analytics Dashboard"
+    }
+  },
+  "bloom_proficiency_scale": {
+    "1": "Remember / Recognize: Fundamental terminology and syntax",
+    "2": "Understand / Explain: Core concept mechanics and execution flow",
+    "3": "Apply / Implement: Writing functional modules to solve standard problems",
+    "4": "Analyze / Troubleshoot: Profiling bottlenecks, debugging distributed issues",
+    "5": "Evaluate / Architect: System design, security hardening, production optimization"
+  }
+}

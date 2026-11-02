@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Customer Retention & Cohort Analysis Pipeline",
+    "target_roles": ["Data Analyst", "Data Scientist"],
+    "primary_skills": ["SQL", "Data Visualization & BI", "Exploratory Data Analysis (EDA)"],
+    "difficulty": "Intermediate",
+    "estimated_hours": 20,
+    "description": "Analyze multi-year customer purchasing logs to calculate Monthly Recurring Revenue (MRR), repeat purchase rate, and retention cohorts using SQL window functions.",
+    "deliverables": [
+      "SQL scripts with window functions and CTEs",
+      "Executive Power BI/Tableau dashboard",
+      "One-page findings report with business recommendations"
+    ],
+    "verification_checklist": [
+      "Calculated customer retention rate by monthly signup cohorts",
+      "Documented top 3 customer churn factors",
+      "Exported reproducible SQL query and interactive chart"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Credit Risk Default Classification with XGBoost & SHAP",
+    "target_roles": ["Data Scientist", "AI/ML Engineer"],
+    "primary_skills": ["Python", "Machine Learning", "Statistics & Probability"],
+    "difficulty": "Advanced",
+    "estimated_hours": 25,
+    "description": "Train, optimize, and explain a credit default prediction model using realistic financial datasets. Implement precision-recall trade-offs and SHAP explainability.",
+    "deliverables": [
+      "Jupyter Notebook with feature engineering and cross-validation",
+      "Model evaluation report comparing Logistic Regression vs XGBoost",
+      "SHAP feature importance plots and risk assessment summary"
+    ],
+    "verification_checklist": [
+      "Achieved ROC-AUC > 0.82 on test dataset",
+      "Addressed class imbalance using SMOTE or scale_pos_weight",
+      "Explained individual prediction decisions using TreeExplainer"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Production RAG Question-Answering System over Research Papers",
+    "target_roles": ["AI/ML Engineer"],
+    "primary_skills": ["Python", "LLMs & Agent Architectures", "MLOps & Model Deployment"],
+    "difficulty": "Advanced",
+    "estimated_hours": 30,
+    "description": "Build an end-to-end Retrieval-Augmented Generation agent that indexes technical PDF papers, retrieves relevant chunks via vector similarity, and answers queries with citations.",
+    "deliverables": [
+      "FastAPI endpoint for document ingestion and QA querying",
+      "ChromaDB/FAISS vector store integration",
+      "Evaluation script for retrieval recall and groundedness"
+    ],
+    "verification_checklist": [
+      "Chunks text with overlap and stores dense embeddings",
+      "Retrieves top-k context passages with source attribution",
+      "Handles out-of-domain queries gracefully without hallucination"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "High-Performance In-Memory Cache with LRU Eviction",
+    "target_roles": ["Software Developer"],
+    "primary_skills": ["Data Structures & Algorithms", "Core Programming (Python/Java/C++)", "Testing & Debugging"],
+    "difficulty": "Intermediate",
+    "estimated_hours": 15,
+    "description": "Implement a thread-safe in-memory key-value cache supporting constant time O(1) read/write operations and Least Recently Used (LRU) eviction policy.",
+    "deliverables": [
+      "Doubly linked list and hash map implementation",
+      "Thread safety locks / mutexes",
+      "Unit test suite verifying O(1) operations, concurrency, and TTL expiration"
+    ],
+    "verification_checklist": [
+      "Passed all eviction boundary test cases",
+      "Demonstrated concurrent read/write stability under stress",
+      "Achieved 95%+ unit test code coverage"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Modern Full-Stack Project Collaboration Portal",
+    "target_roles": ["Full-Stack Developer"],
+    "primary_skills": ["JavaScript / TypeScript", "Frontend Frameworks (React/Vue)", "Backend Development (Node/FastAPI/Express)", "Database & ORM (PostgreSQL/SQLite/Prisma)"],
+    "difficulty": "Intermediate",
+    "estimated_hours": 35,
+    "description": "Build a responsive web application allowing student teams to create project boards, assign tasks, track milestone progress, and persist data in SQLite/PostgreSQL.",
+    "deliverables": [
+      "React + Vite frontend with modular UI components",
+      "FastAPI backend with RESTful endpoints and input validation",
+      "SQLAlchemy relational schema with foreign keys and cascade deletes"
+    ],
+    "verification_checklist": [
+      "CRUD operations verified across all entities",
+      "Clean UI responsive on mobile and desktop viewports",
+      "Input validation on both client and server sides"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Scalable Batch and Streaming Log Ingestion Pipeline",
+    "target_roles": ["Data Engineer"],
+    "primary_skills": ["SQL & Data Warehousing", "Python for Data Engineering", "Workflow Orchestration (Airflow/Prefect)"],
+    "difficulty": "Advanced",
+    "estimated_hours": 25,
+    "description": "Design an automated data pipeline that extracts web server logs, validates schema integrity, converts raw logs into partitioned Parquet format, and loads into an analytical warehouse.",
+    "deliverables": [
+      "Airflow DAG with task dependency graph and retry policies",
+      "Data transformation script with validation and deduplication",
+      "Data quality audit test suite"
+    ],
+    "verification_checklist": [
+      "Airflow DAG runs cleanly on schedule without errors",
+      "Parquet files correctly partitioned by date and event type",
+      "Data quality checks catch corrupted or missing records"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "SOC Security Incident Lab & Real-Time Malicious IP Triage",
+    "target_roles": ["Cybersecurity Analyst"],
+    "primary_skills": ["Network Fundamentals & Protocols", "Security Information & Event Management (SIEM)", "Security Scripting (Python/Bash)"],
+    "difficulty": "Intermediate",
+    "estimated_hours": 20,
+    "description": "Deploy a virtual security monitoring lab, configure syslog ingestion, write automated Python scripts to enrich suspicious IPs against threat intelligence feeds, and generate alert reports.",
+    "deliverables": [
+      "SIEM detection rules for brute-force and port scanning attacks",
+      "Python threat enrichment script querying AbuseIPDB/VirusTotal",
+      "Security Incident Response report with remediation steps"
+    ],
+    "verification_checklist": [
+      "Successfully detected simulated brute-force attack",
+      "Automated triage script flags high-risk IPs within 5 seconds",
+      "Prepared clear mitigation guidance for network firewall"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Automated Multi-Tier Cloud Architecture with Terraform & GitHub Actions",
+    "target_roles": ["Cloud Engineer"],
+    "primary_skills": ["Cloud Platforms (AWS / Azure / GCP)", "Infrastructure as Code (Terraform)", "Linux System Administration", "CI/CD Automation"],
+    "difficulty": "Advanced",
+    "estimated_hours": 25,
+    "description": "Provision a secure multi-tier infrastructure with VPC, public/private subnets, security groups, and an autoscaling containerized web app via Terraform and GitHub Actions.",
+    "deliverables": [
+      "Modular Terraform files (vpc, compute, security)",
+      "GitHub Actions workflow for terraform plan and automated deployment",
+      "Architecture diagram and infrastructure cost breakdown"
+    ],
+    "verification_checklist": [
+      "Terraform state provisions cleanly without drift",
+      "Private subnets have no direct public ingress",
+      "CI/CD workflow passes linting, validation, and plan stages"
+    ]
+  }
+]
