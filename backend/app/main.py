@@ -23,10 +23,11 @@ def on_startup():
     finally:
         db.close()
 
-# Enable CORS for React frontend development
+# Enable CORS for React frontend development and Vercel deployments
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.CORS_ORIGINS,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
